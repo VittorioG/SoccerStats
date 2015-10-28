@@ -4,7 +4,7 @@ import java.util.List;
 
 public class Manager {
 	List<Match> leagueMatches;
-	List<Team> leageTeams;
+	List<Team> leagueTeams;
 	
 	public Manager(){
 		//TODO: IMPLEMENT THIS TOO
@@ -17,7 +17,16 @@ public class Manager {
 		//TODO: IMPLEMENT THIS
 	}
 	public void DisplayTopGoalie(){
-		//TODO: IMPLEMENT THIS
+		for(Team t : leagueTeams)
+		{
+			t.getPlayers();
+			for(Player p : t)
+			{
+				
+			}
+			
+			
+		}
 	}
 	
 	public static void main(String args[]){
