@@ -19,10 +19,10 @@ public class Manager {
 	public void DisplayTopGoalie(){
 		for(Team t : leagueTeams)
 		{
-			t.getPlayers();
-			for(Player p : t)
+			for(Player p : t.getPlayers())
 			{
-				
+				if(p.getPosition()==0)
+					
 			}
 			
 			
